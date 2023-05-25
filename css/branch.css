@@ -1,0 +1,49 @@
+@import url(app.css);
+.branch{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.container-branch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: var(--screen-md);
+  min-height: auto;
+}
+.container-item {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 3rem;
+  row-gap: 3rem;
+  justify-content: space-between;
+}
+.item-branch{
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+.item-branch  img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.title {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.title , .address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: var(--font-family);
+}
